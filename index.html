@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kier O | Venta Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+    <h1 aria-label="Kier O">K<span class="small-letters" aria-hidden="true">ier&nbsp;</span>O</h1>
+    <div class="cart-icon" onclick="toggleCart()">
+        🛒 <span id="cart-count">0</span>
+    </div>
+    </header>
+
+    <div class="ticker-container">
+        <div class="ticker-text">
+            <span>🚚 Envíos gratis a todo el Perú por compras mayores a S/ 150</span>
+            <span>🔥 Costo de envio a Lima Metropolitana S/. 5.00</span>
+            <span>🌟 Nuevos productos disponibles esta semana</span>
+            <span>🚚 Envíos gratis a todo el Perú por compras mayores a S/ 150</span>
+        </div>
+    </div>
+
+    <section class="search-section">
+        <div class="search-box">
+            <input type="text" id="product-search" placeholder="¿Qué estás buscando hoy?" onkeyup="filterProducts()">
+            <span class="search-icon">🔍</span>
+        </div>
+    </section>
+
+    <section class="category-filters">
+        <button class="btn-filter active" onclick="filterByCategory('todos')">Todos</button>
+        <button class="btn-filter" onclick="filterByCategory('ropa')">Ropa</button>
+        <button class="btn-filter" onclick="filterByCategory('electronica')">Electrónica</button>
+        <button class="btn-filter" onclick="filterByCategory('hogar')">Hogar</button>
+    </section>
+
+    <main id="product-container"></main>
+
+    <aside id="shopping-cart" class="hidden">
+        <h2>Tu Carrito</h2>
+        <div id="cart-items"></div>
+        <div class="cart-total"> Total: S/ <span id="total-price">0.00</span></div>
+        
+        <button class="btn-checkout" onclick="enviarPedidoWhatsApp()">Finalizar Pedido por Yape</button>
+        
+        <button class="btn-close" onclick="toggleCart()">Cerrar</button>
+    </aside>
+
+    <footer class="cart-footer" onclick="toggleCart()">
+        <div class="footer-content">
+            <span>🛒 Resumen de Compra: <strong id="cart-count-footer">0</strong> productos</span>
+            <span>Total: <strong>S/ <span id="total-price-footer">0.00</span></strong></span>
+        </div>
+        <button class="btn-view-cart">Ver Carrito</button>
+    </footer>
+
+    <div id="product-detail-modal" class="modal hidden">
+        <div class="modal-content detail-box">
+            <span class="close-detail" onclick="closeDetail()">&times;</span>
+            <div class="detail-container">
+                <div class="detail-image">
+                    <img id="detail-img" src="" alt="">
+                </div>
+                <div class="detail-info">
+                    <h2 id="detail-name"></h2>
+                    <p class="category-tag" id="detail-category"></p>
+                    <p class="price-tag">S/ <span id="detail-price"></span></p>
+                    <div class="features">
+                        <h4>Características:</h4>
+                        <ul id="detail-features-list"></ul>
+                    </div>
+                    <button id="add-from-detail" class="btn-add">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/51986994220?text=Hola%20Mi%20Tienda,%20deseo%20consultar%20sobre%20un%20producto" 
+       class="whatsapp-btn" 
+       target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        <span>¿Dudas? Escríbenos</span>
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
