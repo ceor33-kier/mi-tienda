@@ -96,6 +96,54 @@ const products = [
             "compatible para licuadora Oster y Osterizer",
         ]
     },
+    {
+        id: 10, 
+        name: "USB 250MB", 
+        price: 25.00, 
+        img: "img/USB.jpg", 
+        category: "electronica",
+        features: [
+            "USB alta velocidad", 
+            "Datos, fotos, videos, musica", 
+            "interfaz Type-C",
+        ]
+    },
+    {
+        id: 11, 
+        name: "Mochila capibara", 
+        price: 58.00, 
+        img: "img/mochila.jpg", 
+        category: "ropa",
+        features: [
+            "Nylon de colores", 
+            "Correas ajustables", 
+            "Toque juvenil",
+        ]
+    },
+    {
+        id: 12, 
+        name: "Bolso Hello Kitty", 
+        price: 49.00, 
+        img: "img/carteraHK.jpg", 
+        category: "ropa",
+        features: [
+            "Bolso con bufanda", 
+            "Estioo casual para mujer", 
+            "Toque juvenil",
+        ]
+    },
+    {
+        id: 13, 
+        name: "Bolso con mariposa", 
+        price: 48.00, 
+        img: "img/bolsoHK.jpg", 
+        category: "ropa",
+        features: [
+            "Decorado con mariposa y HK", 
+            "Tela alta calidad resistente", 
+            "Toque juvenil",
+        ]
+    },
 
 ];
 
