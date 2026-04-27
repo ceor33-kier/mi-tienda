@@ -144,6 +144,138 @@ const products = [
             "Toque juvenil",
         ]
     },
+    {
+        id: 14, 
+        name: "Rubor e iluminador", 
+        price: 28.90, 
+        img: "img/sombras.png", 
+        category: "ropa",
+        features: [
+            "sombras bronce y rosado", 
+            "hecho en Francia", 
+        ]
+    },
+    {
+        id: 15, 
+        name: "Crema hidratanta", 
+        price: 34.90, 
+        img: "img/crema.jpg", 
+        category: "ropa",
+        features: [
+            "Extracto de monoi, 250ml", 
+            "hecho en Francia", 
+        ]
+    },
+    {
+        id: 16, 
+        name: "Mascarilla zanahoria", 
+        price: 32.90, 
+        img: "img/mascarilla.jpg", 
+        category: "ropa",
+        features: [
+            "Extracto de zanahoria", 
+            "hecho en Francia", 
+        ]
+    },
+    {
+        id: 17, 
+        name: "Parches", 
+        price: 24.90, 
+        img: "img/parches.png", 
+        category: "ropa",
+        features: [
+            "Parches para el acne", 
+            "hecho en Francia", 
+        ]
+    },
+    {
+        id: 18, 
+        name: "Leche corporal", 
+        price: 49.90, 
+        img: "img/leche.jpg", 
+        category: "ropa",
+        features: [
+            "Especial para pieles secas", 
+            "hecho en Francia", 
+        ]
+    },
+    {
+        id: 19, 
+        name: "Derpy Kpop", 
+        price: 45.90, 
+        img: "img/Derpy.jpg", 
+        category: "ropa",
+        features: [
+            "Felino azul", 
+            "Funko Kpop", 
+        ]
+    },
+    {
+        id: 20, 
+        name: "Jinu Kpop", 
+        price: 45.90, 
+        img: "img/Jinu.jpg", 
+        category: "ropa",
+        features: [
+            "Kpop Demon Hunters", 
+            "Funko Kpop", 
+        ]
+    },
+    {
+        id: 21, 
+        name: "Mira Guerrera", 
+        price: 45.90, 
+        img: "img/Mira.jpg", 
+        category: "ropa",
+        features: [
+            "Kpop Demon Hunters", 
+            "Funko Kpop", 
+        ]
+    },
+    {
+        id: 22, 
+        name: "Rumi Guerrera", 
+        price: 45.90, 
+        img: "img/Rumi.jpg", 
+        category: "ropa",
+        features: [
+            "Kpop Demon Hunters", 
+            "Funko Kpop", 
+        ]
+    },
+    {
+        id: 23, 
+        name: "Zoey Guerrera", 
+        price: 45.90, 
+        img: "img/Zoey.jpg", 
+        category: "ropa",
+        features: [
+            "Kpop Demon Hunters", 
+            "Funko Kpop", 
+        ]
+    },
+    {
+        id: 24, 
+        name: "StitBoy Kpop", 
+        price: 45.90, 
+        img: "img/StitBoy.jpg", 
+        category: "ropa",
+        features: [
+            "Kpop Demon Hunters", 
+            "Funko Kpop", 
+        ]
+    },
+    {
+        id: 25, 
+        name: "Polera LaBubu", 
+        price: 30.00, 
+        img: "img/polera.jpg", 
+        category: "ropa",
+        features: [
+            "Polera LaBubu", 
+            "Tallas 6 y 14", 
+        ]
+    },
 
 ];
 
