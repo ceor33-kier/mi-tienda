@@ -63,7 +63,7 @@ const products = [
     {
         id: 7, 
         name: "teclado Acer", 
-        price: 45.00, 
+        price: 58.00, 
         img: "img/teclado.jpg", 
         category: "electronica",
         features: [
@@ -75,7 +75,7 @@ const products = [
     {
         id: 8, 
         name: "Zapatillas peluche", 
-        price: 25.00, 
+        price: 45.00, 
         img: "img/Zapeluche.jpg", 
         category: "ropa",
         features: [
@@ -87,7 +87,7 @@ const products = [
     {
         id: 9, 
         name: "Repuesto licuadora", 
-        price: 32.00, 
+        price: 38.00, 
         img: "img/RepuestoLi.jpg", 
         category: "electronica",
         features: [
@@ -135,7 +135,7 @@ const products = [
     {
         id: 13, 
         name: "Bolso con mariposa", 
-        price: 48.00, 
+        price: 42.00, 
         img: "img/bolsoHK.jpg", 
         category: "ropa",
         features: [
@@ -274,6 +274,29 @@ const products = [
         features: [
             "Polera LaBubu", 
             "Tallas 6 y 14", 
+        ]
+    },
+    {
+        id: 26, 
+        name: "Gafas para mujer", 
+        price: 32.00, 
+        img: "img/lentes.png", 
+        category: "hogar",
+        features: [
+            "Forma cuadrada sin montura", 
+            "Adorno con pedreria", 
+        ]
+    },
+    {
+        id: 27, 
+        name: "Bolso blanco", 
+        price: 36.00, 
+        img: "img/CarteraB.jpg", 
+        category: "ropa",
+        features: [
+            "Bolso para paseo", 
+            "Color blanco", 
+            "Toque juvenil",
         ]
     },
 
