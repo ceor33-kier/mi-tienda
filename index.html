@@ -11,8 +11,21 @@
 
     <header>
     <h1 aria-label="Kier O">K<span class="small-letters" aria-hidden="true">ier&nbsp;</span>O</h1>
-    <div class="cart-icon" onclick="toggleCart()">
-        🛒 <span id="cart-count">0</span>
+    <div class="cart-icon" onclick="toggleCart()" style="position: relative; display: inline-block;">
+        <!-- Tamaño aumentado a 65px para que se note más el logo -->
+        <img src="img/carrito1.png" alt="Carrito Kier O" style="width: 65px; height: auto; display: block;">
+        
+        <!-- Ajusté la posición del contador para el nuevo tamaño -->
+        <span id="cart-count" style="
+            position: absolute; 
+            top: -2px; 
+            right: -2px; 
+            background-color: #ff4d4d; 
+            color: white; 
+            border-radius: 50%; 
+            padding: 3px 8px; 
+            font-size: 14px;
+            font-weight: bold;">0</span>
     </div>
     </header>
 
@@ -81,7 +94,7 @@
         </div>
     </div>
 
-    <a href="https://wa.me/51986994220?text=Hola%20Mi%20Tienda,%20deseo%20consultar%20sobre%20un%20producto" 
+    <a href="https://wa.me/51972454203?text=Hola%20Mi%20Tienda,%20deseo%20consultar%20sobre%20un%20producto" 
        class="whatsapp-btn" 
        target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">

@@ -299,6 +299,28 @@ const products = [
             "Toque juvenil",
         ]
     },
+    {
+        id: 28, 
+        name: "Falda Verde", 
+        price: 26.00, 
+        img: "img/faldaV.jpg", 
+        category: "ropa",
+        features: [
+            "Falda juvenil", 
+            "Talla M y L", 
+        ]
+    },
+    {
+        id: 29, 
+        name: "Falda Dorada", 
+        price: 26.00, 
+        img: "img/faldaD.jpg", 
+        category: "ropa",
+        features: [
+            "Falda juvenil", 
+            "Talla M", 
+        ]
+    },
 
 ];
 
