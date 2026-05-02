@@ -442,7 +442,7 @@ function payWithYape() {
     document.getElementById('payment-details').innerHTML = `
         <p>Escanea el QR para pagar</p>
         <img src="https://via.placeholder.com/200?text=QR+YAPE" style="width:200px; margin: 10px auto; display: block;">
-        <p>Envía el comprobante al WhatsApp: 986 994 220</p>
+        <p>Envía el comprobante al WhatsApp: 972 454 203</p>
     `;
 }
 
@@ -461,7 +461,7 @@ function payWithCard() {
 renderProducts(products);
 
 function enviarPedidoWhatsApp() {
-    const telefono = "51986994220"; 
+    const telefono = "51972454203"; 
     if (cart.length === 0) {
         alert("El carrito está vacío.");
         return;
@@ -503,5 +503,5 @@ async function enviarPedidoWhatsApp() {
 
     // 2. Abrir WhatsApp (como ya lo hacías)
     let mensaje = `¡Hola! Nuevo pedido:\n${cart.map(i => `- ${i.name}`).join("\n")}\n*Total: S/ ${total}*`;
-    window.open(`https://wa.me/51986994220?text=${encodeURIComponent(mensaje)}`, '_blank');
+    window.open(`https://wa.me/51972454203?text=${encodeURIComponent(mensaje)}`, '_blank');
 }
