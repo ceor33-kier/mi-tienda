@@ -39,6 +39,9 @@ header h1 {
     display: flex;
     align-items: baseline;
     white-space: nowrap; /* Evita que Kier O se rompa en dos líneas */
+    flex: 1;                /* NUEVO: Toma todo el espacio central disponible */
+    justify-content: center; /* NUEVO: Centra el contenido (Kier O) dentro del h1 */
+    text-align: center;      /* NUEVO: Asegura el centrado del texto */
 }
 
 .small-letters {
