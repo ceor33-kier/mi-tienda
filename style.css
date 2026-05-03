@@ -15,50 +15,69 @@ h1 {
 header {
     background: #e8ebee;
     color: rgb(238, 144, 57);
-    padding: 1rem;
+    padding: 0 1rem;
     display: flex;
-    justify-content: flex-end; /* Empuja el carrito a la derecha */
+    /* Esto pone el título a un lado y el carrito al otro, 
+       evitando que se aplasten entre sí */
+    justify-content: space-between; 
     align-items: center;
     position: sticky;
     top: 0;
     z-index: 100;
-    min-height: 60px;
+    min-height: 85px; /* Aumentado para que el carrito de 65px quepa bien */
     box-sizing: border-box;
 }
 
 /* Tamaño por defecto (para computadoras) */
 header h1 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    /* Eliminamos absolute y transform para que no "flote" */
     margin: 0;
     font-family: 'Lobster', serif;
-    font-size: 60px; /* Tamaño para la K y la O */
+    font-size: 60px; 
     color: #d76f06;
     font-weight: bold;
     display: flex;
-    align-items: baseline; /* Clave para que la base de las letras sea la misma */
-    white-space: pre-wrap; /* Para que respete el espacio que pusimos después de la r */
+    align-items: baseline;
+    white-space: nowrap; /* Evita que Kier O se rompa en dos líneas */
 }
 
 .small-letters {
-    font-size: 0.5em; /* La mitad de 60px = 30px */
+    font-size: 0.5em; 
     text-transform: lowercase;
 }
+
 /* Ajuste para móviles */
 @media (max-width: 600px) {
+    header {
+        padding: 0 10px;
+        min-height: 75px;
+    }
+
     header h1 {
-        font-size: 2.5rem;
+        /* Un tamaño mucho más grande para que se lea bien en el celular */
+        font-size: 3.2rem; 
+        flex-shrink: 0; /* Obliga al carrito a no empujar el texto */
     }
 }
 
 .cart-icon {
     cursor: pointer;
-    font-size: 1.2rem;
     position: relative;
-    z-index: 101; /* Asegura que el carrito sea clickeable */
+    z-index: 101; 
+    display: flex; /* Alinea el contenido interno (imagen + contador) */
+    align-items: center;
+    justify-content: center;
+    /* Evita que el contenedor se deforme si el header cambia de tamaño */
+    flex-shrink: 0; 
+    margin-left: 10px; /* Un pequeño respiro respecto al título */
 }
 
+/* Opcional: Si quieres que el carrito no se vea GIGANTE en pantallas muy pequeñas */
+@media (max-width: 400px) {
+    .cart-icon img {
+        width: 55px !important; /* Ajuste fino para celulares angostos */
+    }
+}
 #cart-count {
     background: rgb(182, 49, 49);
     color: white;
