@@ -17,20 +17,18 @@ header {
     color: rgb(238, 144, 57);
     padding: 0 1rem;
     display: flex;
-    /* Esto pone el título a un lado y el carrito al otro, 
-       evitando que se aplasten entre sí */
-    justify-content: space-between; 
+    justify-content: space-between; /* Mantiene el carrito a la derecha */
     align-items: center;
     position: sticky;
     top: 0;
     z-index: 100;
-    min-height: 85px; /* Aumentado para que el carrito de 65px quepa bien */
+    min-height: 85px; 
     box-sizing: border-box;
 }
 
 /* Tamaño por defecto (para computadoras) */
+/* --- TÍTULO KIER O --- */
 header h1 {
-    /* Eliminamos absolute y transform para que no "flote" */
     margin: 0;
     font-family: 'Lobster', serif;
     font-size: 60px; 
@@ -38,10 +36,12 @@ header h1 {
     font-weight: bold;
     display: flex;
     align-items: baseline;
-    white-space: nowrap; /* Evita que Kier O se rompa en dos líneas */
-    flex: 1;                /* NUEVO: Toma todo el espacio central disponible */
-    justify-content: center; /* NUEVO: Centra el contenido (Kier O) dentro del h1 */
-    text-align: center;      /* NUEVO: Asegura el centrado del texto */
+    white-space: nowrap;
+    
+    /* Estas 3 líneas centran en PC */
+    flex: 1;                
+    justify-content: center; 
+    text-align: center;      
 }
 
 .small-letters {
@@ -49,7 +49,7 @@ header h1 {
     text-transform: lowercase;
 }
 
-/* Ajuste para móviles */
+/* --- AJUSTE PARA MÓVILES (CORREGIDO) --- */
 @media (max-width: 600px) {
     header {
         padding: 0 10px;
@@ -57,9 +57,13 @@ header h1 {
     }
 
     header h1 {
-        /* Un tamaño mucho más grande para que se lea bien en el celular */
-        font-size: 3.2rem; 
-        flex-shrink: 0; /* Obliga al carrito a no empujar el texto */
+        font-size: 2.8rem; /* Bajamos un poco de 3.2 para que quepa al centro */
+        
+        /* REPETIMOS EL CENTRADO AQUÍ PARA EL CELULAR */
+        display: flex;
+        justify-content: center; 
+        flex: 1;
+        text-align: center;
     }
 }
 
