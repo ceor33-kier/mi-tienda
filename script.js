@@ -10,7 +10,7 @@ const products = [
     },
     { 
         id: 2, 
-        name: "Reloj Mujer", 
+        name: "Smartwatch", 
         price: 65.00, 
         img: "img/Rmujer.png", // Asegúrate de tener esta imagen
         category: "electronica",
@@ -26,7 +26,7 @@ const products = [
     },
     { 
         id: 4, 
-        name: "Reloj Hombre", 
+        name: "Reloj Inteligente", 
         price: 43.00, 
         img: "img/Rhombre.jpg", 
         category: "electronica",
