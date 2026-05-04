@@ -192,7 +192,7 @@ const products = [
         id: 18, 
         name: "Leche corporal", 
         price: 49.90, 
-        img: "img/leche.jpg", 
+        img: "img/lechec.jpg", 
         category: "ropa",
         features: [
             "Especial para pieles secas", 
