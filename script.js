@@ -321,6 +321,50 @@ const products = [
             "Talla M", 
         ]
     },
+    {
+        id: 30, 
+        name: "Vestido Mariposas",
+        price: 46.00, 
+        img: "img/vestidoR.jpg", 
+        category: "ropa",
+        features: [
+            "Vestido para niñas", 
+            "Talla de 2 a 3 años", 
+        ]
+    },
+    {
+        id: 31, 
+        name: "Bolso con herrajes", 
+        price: 46.00, 
+        img: "img/carteraR.jpg", 
+        category: "ropa",
+        features: [
+            "correa ajustable", 
+            "bolso para trabajo y uso diario", 
+        ]
+    },
+    {
+        id: 32, 
+        name: "Pijama capibara", 
+        price: 48.00, 
+        img: "img/pijamaC.jpg", 
+        category: "ropa",
+        features: [
+            "camiseta cami y pantalones", 
+            "Talla M", 
+        ]
+    },
+    {
+        id: 33, 
+        name: " 5 Rosas artificiales", 
+        price: 10.00, 
+        img: "img/rosa.jpg", 
+        category: "hogar",
+        features: [
+            "Ramo de rosas rojas con tallo", 
+            "Para decoracion de interiores", 
+        ]
+    },
 
 ];
 
