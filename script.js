@@ -98,8 +98,8 @@ const products = [
     },
     {
         id: 10, 
-        name: "USB 250MB", 
-        price: 25.00, 
+        name: "USB 256MB", 
+        price: 35.00, 
         img: "img/USB.jpg", 
         category: "electronica",
         features: [
