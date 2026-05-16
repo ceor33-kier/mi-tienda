@@ -20,7 +20,7 @@ const products = [
         id: 3, 
         name: "Reloj Cuarzo", 
         price: 45.00, 
-        img: "img/Rvar.png", 
+        img: "img/RelojV.png", 
         category: "electronica",
         features: ["Reloj de cuarzo", "correa ajustable", "= ideal para regalo"]
     },
@@ -28,7 +28,7 @@ const products = [
         id: 4, 
         name: "Reloj Inteligente", 
         price: 43.00, 
-        img: "img/Rhombre.jpg", 
+        img: "img/RelojI.png", 
         category: "electronica",
         features: [
             "Reloj Inteligente", 
@@ -40,7 +40,7 @@ const products = [
         id: 5, 
         name: "Reloj mariposa", 
         price: 68.00, 
-        img: "img/Rmariposa.png", 
+        img: "img/RelojR.png", 
         category: "electronica",
         features: [
             "Reloj de cuarzo", 
@@ -124,7 +124,7 @@ const products = [
         id: 12, 
         name: "Bolso Hello Kitty", 
         price: 49.00, 
-        img: "img/carteraHK.jpg", 
+        img: "img/CarteraHK.png", 
         category: "ropa",
         features: [
             "Bolso con bufanda", 
@@ -146,12 +146,12 @@ const products = [
     },
     {
         id: 14, 
-        name: "Rubor e iluminador", 
-        price: 28.90, 
+        name: "Sombras", 
+        price: 29.90, 
         img: "img/sombras.png", 
-        category: "ropa",
+        category: "hogar",
         features: [
-            "sombras bronce y rosado", 
+            "Producto garantizado", 
             "hecho en Francia", 
         ]
     },
@@ -160,7 +160,7 @@ const products = [
         name: "Crema hidratanta", 
         price: 34.90, 
         img: "img/crema.jpg", 
-        category: "ropa",
+        category: "hogar",
         features: [
             "Extracto de monoi, 250ml", 
             "hecho en Francia", 
@@ -171,7 +171,7 @@ const products = [
         name: "Mascarilla zanahoria", 
         price: 32.90, 
         img: "img/mascarilla.jpg", 
-        category: "ropa",
+        category: "hogar",
         features: [
             "Extracto de zanahoria", 
             "hecho en Francia", 
@@ -182,7 +182,7 @@ const products = [
         name: "Parches", 
         price: 24.90, 
         img: "img/parches.png", 
-        category: "ropa",
+        category: "hogar",
         features: [
             "Parches para el acne", 
             "hecho en Francia", 
@@ -193,7 +193,7 @@ const products = [
         name: "Leche corporal", 
         price: 49.90, 
         img: "img/lechec.jpg", 
-        category: "ropa",
+        category: "hogar",
         features: [
             "Especial para pieles secas", 
             "hecho en Francia", 
@@ -204,7 +204,7 @@ const products = [
         name: "Derpy Kpop", 
         price: 45.90, 
         img: "img/Derpy.jpg", 
-        category: "ropa",
+        category: "hogar",
         features: [
             "Felino azul", 
             "Funko Kpop", 
@@ -215,7 +215,7 @@ const products = [
         name: "Jinu Kpop", 
         price: 45.90, 
         img: "img/Jinu.jpg", 
-        category: "ropa",
+        category: "hogar",
         features: [
             "Kpop Demon Hunters", 
             "Funko Kpop", 
@@ -226,7 +226,7 @@ const products = [
         name: "Mira Guerrera", 
         price: 45.90, 
         img: "img/Mira.jpg", 
-        category: "ropa",
+        category: "hogar",
         features: [
             "Kpop Demon Hunters", 
             "Funko Kpop", 
@@ -237,7 +237,7 @@ const products = [
         name: "Rumi Guerrera", 
         price: 45.90, 
         img: "img/Rumi.jpg", 
-        category: "ropa",
+        category: "hogar",
         features: [
             "Kpop Demon Hunters", 
             "Funko Kpop", 
@@ -248,7 +248,7 @@ const products = [
         name: "Zoey Guerrera", 
         price: 45.90, 
         img: "img/Zoey.jpg", 
-        category: "ropa",
+        category: "hogar",
         features: [
             "Kpop Demon Hunters", 
             "Funko Kpop", 
@@ -259,7 +259,7 @@ const products = [
         name: "StitBoy Kpop", 
         price: 45.90, 
         img: "img/StitBoy.jpg", 
-        category: "ropa",
+        category: "hogar",
         features: [
             "Kpop Demon Hunters", 
             "Funko Kpop", 
@@ -280,7 +280,7 @@ const products = [
         id: 26, 
         name: "Gafas para mujer", 
         price: 32.00, 
-        img: "img/lentes.png", 
+        img: "img/Gafas.png", 
         category: "hogar",
         features: [
             "Forma cuadrada sin montura", 
@@ -363,6 +363,28 @@ const products = [
         features: [
             "Ramo de rosas rojas con tallo", 
             "Para decoracion de interiores", 
+        ]
+    },
+    {
+        id: 34, 
+        name: "Rubor Francia", 
+        price: 30.00, 
+        img: "img/Rubor.jpg", 
+        category: "hogar",
+        features: [
+            "Producto garantizado", 
+            "hecho en Francia", 
+        ]
+    },
+    {
+        id: 35, 
+        name: "Brillo Labial Francia", 
+        price: 25.00, 
+        img: "img/Labial.jpg", 
+        category: "hogar",
+        features: [
+            "Producto garantizado", 
+            "hecho en Francia", 
         ]
     },
 
