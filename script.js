@@ -19,8 +19,8 @@ const products = [
     { 
         id: 3, 
         name: "Reloj Cuarzo", 
-        price: 45.00, 
-        img: "img/RelojV.png", 
+        price: 43.00, 
+        img: "img/reloj5.png", 
         category: "electronica",
         features: ["Reloj de cuarzo", "correa ajustable", "= ideal para regalo"]
     },
@@ -39,8 +39,8 @@ const products = [
     {
         id: 5, 
         name: "Reloj mariposa", 
-        price: 68.00, 
-        img: "img/RelojR.png", 
+        price: 43.00, 
+        img: "img/reloj6.png", 
         category: "electronica",
         features: [
             "Reloj de cuarzo", 
@@ -52,7 +52,7 @@ const products = [
         id: 6, 
         name: "Capibara", 
         price: 18.00, 
-        img: "img/capibara.jpg", 
+        img: "img/capibara2.png", 
         category: "hogar",
         features: [
             "Capibara peluche", 
@@ -112,7 +112,7 @@ const products = [
         id: 11, 
         name: "Mochila capibara", 
         price: 58.00, 
-        img: "img/mochila.jpg", 
+        img: "img/mochila3.png", 
         category: "ropa",
         features: [
             "Nylon de colores", 
@@ -136,7 +136,7 @@ const products = [
         id: 13, 
         name: "Bolso con mariposa", 
         price: 42.00, 
-        img: "img/bolsoHK.jpg", 
+        img: "img/bolso4.png", 
         category: "ropa",
         features: [
             "Decorado con mariposa y HK", 
@@ -347,7 +347,7 @@ const products = [
         id: 32, 
         name: "Pijama capibara", 
         price: 48.00, 
-        img: "img/pijamaC.jpg", 
+        img: "img/pijama2.png", 
         category: "ropa",
         features: [
             "camiseta cami y pantalones", 
@@ -386,6 +386,14 @@ const products = [
             "Producto garantizado", 
             "hecho en Francia", 
         ]
+    },
+    { 
+        id: 36, 
+        name: "Reloj Cuarzo", 
+        price: 43.00, 
+        img: "img/reloj7.png", 
+        category: "electronica",
+        features: ["Reloj de cuarzo", "correa ajustable", "= ideal para regalo"]
     },
 
 ];
