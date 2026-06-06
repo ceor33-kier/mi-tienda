@@ -136,7 +136,7 @@ const products = [
         id: 13, 
         name: "Bolso con mariposa", 
         price: 42.00, 
-        img: "img/bolso4.png", 
+        img: "img/bolsoHK.jpg",
         category: "ropa",
         features: [
             "Decorado con mariposa y HK", 
@@ -350,7 +350,7 @@ const products = [
         img: "img/pijama2.png", 
         category: "ropa",
         features: [
-            "camiseta cami y pantalones", 
+            "camiseta y pantalones", 
             "Talla M", 
         ]
     },
@@ -394,6 +394,39 @@ const products = [
         img: "img/reloj7.png", 
         category: "electronica",
         features: ["Reloj de cuarzo", "correa ajustable", "= ideal para regalo"]
+    },
+    {
+        id: 37, 
+        name: "Pijama niña", 
+        price: 48.00, 
+        img: "img/pijama3.png", 
+        category: "ropa",
+        features: [
+            "camiseta y pantalones", 
+            "Talla 7-8a", 
+        ]
+    },
+    {
+        id: 38, 
+        name: "Pijama mujer", 
+        price: 48.00, 
+        img: "img/pijama2-2.png", 
+        category: "ropa",
+        features: [
+            "camiseta y pantalones", 
+            "Talla M", 
+        ]
+    },
+    {
+        id: 39, 
+        name: "Pulsera SM", 
+        price: 34.90, 
+        img: "img/pulsera1.png", 
+        category: "Hogar",
+        features: [
+            "Diseño de anime", 
+            "para disfraces de colplay", 
+        ]
     },
 
 ];
