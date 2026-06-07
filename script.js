@@ -428,6 +428,126 @@ const products = [
             "para disfraces de colplay", 
         ]
     },
+    { 
+        id: 40, 
+        name: "Smartwatch negro", 
+        price: 49.50, 
+        img: "img/reloj2.png", 
+        category: "electronica",
+        features: [
+            "Reloj Inteligente", 
+            "Llamadas inalambricas", 
+            "Modos multideporte",
+        ]
+    },
+    { 
+        id: 41, 
+        name: "Smartwatch hombre", 
+        price: 58.00, 
+        img: "img/reloj3.png", 
+        category: "electronica",
+        features: [
+            "Reloj Inteligente", 
+            "Control remoto de camara", 
+            "Carga USB",
+        ]
+    },
+    { 
+        id: 42, 
+        name: "Reloj de cuarzo de lujo", 
+        price: 52.00, 
+        img: "img/reloj4.png", 
+        category: "electronica",
+        features: [
+            "Reloj acero inoxidable", 
+            "Reloj con fecha", 
+            "Ideal para regalo",
+        ]
+    },
+    { 
+        id: 43, 
+        name: "Boxer vaso de cerveza", 
+        price: 19.90, 
+        img: "img/boxer1.png", 
+        category: "Ropa",
+        features: [
+            "Boxer estampado", 
+            "Talla M", 
+            "Talla XL",
+        ]
+    },
+    { 
+        id: 44, 
+        name: "Boxer cerdito", 
+        price: 26.50, 
+        img: "img/boxer2.png", 
+        category: "Ropa",
+        features: [
+            "Boxer estampado", 
+            "Talla M", 
+            "Talla L",
+        ]
+    },
+    { 
+        id: 45, 
+        name: "Boxer patitos", 
+        price: 26.50, 
+        img: "img/boxer3.png", 
+        category: "Ropa",
+        features: [
+            "Boxer estampado", 
+            "Comoda y transpirable", 
+            "Talla L",
+        ]
+    },
+    { 
+        id: 46, 
+        name: "Medias con mensaje", 
+        price: 22.50, 
+        img: "img/medias1.png", 
+        category: "Ropa",
+        features: [
+            "Calcetines estampados", 
+            "Calcetines de vestir", 
+            "Calcetines pantuflas",
+        ]
+    },
+    { 
+        id: 47, 
+        name: "Medias nutella", 
+        price: 24.50, 
+        img: "img/medias2.png", 
+        category: "Ropa",
+        features: [
+            "Calcetines estampados", 
+            "Calcetines de vestir", 
+            "Calcetines pantuflas",
+        ]
+    },
+    { 
+        id: 48, 
+        name: "Medias pilsen", 
+        price: 26.50, 
+        img: "img/medias3.png", 
+        category: "Ropa",
+        features: [
+            "Calcetines estampados", 
+            "Calcetines de vestir", 
+            "Calcetines pantuflas",
+        ]
+    },
+    { 
+        id: 49, 
+        name: "Medias cortas", 
+        price: 8.00, 
+        img: "img/medias4.png", 
+        category: "Ropa",
+        features: [
+            "Calcetines estampados", 
+            "Calcetines de vestir", 
+            "Estilo urbano casual",
+        ]
+    },
 
 ];
 
