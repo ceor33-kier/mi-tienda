@@ -504,7 +504,7 @@ const products = [
         id: 46, 
         name: "Medias con mensaje", 
         price: 22.50, 
-        img: "img/medias1.png", 
+        img: "img/mediasA.png", 
         category: "Ropa",
         features: [
             "Calcetines estampados", 
@@ -546,6 +546,150 @@ const products = [
             "Calcetines estampados", 
             "Calcetines de vestir", 
             "Estilo urbano casual",
+        ]
+    },
+    { 
+        id: 50, 
+        name: "Aretes Fresa", 
+        price: 19.50, 
+        img: "img/aretesF.png", 
+        category: "Ropa",
+        features: [
+            "Aretes de fresa premium", 
+            "Combinables", 
+            "Estilo urbano y casual",
+        ]
+    },
+    { 
+        id: 51, 
+        name: "Aretes Rosas", 
+        price: 17.00, 
+        img: "img/aretesR.png", 
+        category: "Ropa",
+        features: [
+            "Aretes de rosas blancas", 
+            "Combinables", 
+            "Estilo urbano y casual",
+        ]
+    },
+    { 
+        id: 52, 
+        name: "Aretes Diamantes", 
+        price: 19.50, 
+        img: "img/aretesD.png", 
+        category: "Ropa",
+        features: [
+            "Aretes en forma de gotas", 
+            "Usos fiestas y diario", 
+            "Estilo urbano y casual",
+        ]
+    },
+    { 
+        id: 53, 
+        name: "Aretes Flor de Cerezo", 
+        price: 18.50, 
+        img: "img/aretesFC.png", 
+        category: "Ropa",
+        features: [
+            "Aretes flor de cerezo", 
+            "Ideal para regalo", 
+            "Estilo urbano y casual",
+        ]
+    },
+    { 
+        id: 54, 
+        name: "Aretes Margaritas", 
+        price: 17.00, 
+        img: "img/aretesM.png", 
+        category: "Ropa",
+        features: [
+            "Aretes margaritas blancas", 
+            "Ideal para regalo", 
+            "Estilo urbano y casual",
+        ]
+    },
+    { 
+        id: 55, 
+        name: "Aretes Cerezas", 
+        price: 17.90, 
+        img: "img/aretesC.png", 
+        category: "Ropa",
+        features: [
+            "Aretes forma de cerezas", 
+            "Ideal para regalo", 
+            "Estilo urbano y casual",
+        ]
+    },
+    { 
+        id: 56, 
+        name: "Aretes Corazones", 
+        price: 19.50, 
+        img: "img/aretesCo.png", 
+        category: "Ropa",
+        features: [
+            "Aretes forma de corazones", 
+            "Ideal para regalo", 
+            "Estilo urbano y casual",
+        ]
+    },
+    { 
+        id: 57, 
+        name: "Juego Collar y Aretes", 
+        price: 26.00, 
+        img: "img/collarV.png", 
+        category: "Ropa",
+        features: [
+            "Collar y aretes dazzling", 
+            "Ideal para regalo", 
+            "Elegante y encantador",
+        ]
+    },
+    { 
+        id: 58, 
+        name: "Pulsera Ojo Turco", 
+        price: 18.00, 
+        img: "img/pulseraT.png", 
+        category: "Ropa",
+        features: [
+            "Pulsera turca ajustable", 
+            "Ideal para regalo", 
+            "Elegante y encantador",
+        ]
+    },
+    { 
+        id: 59, 
+        name: "Collar Love", 
+        price: 23.00, 
+        img: "img/collarL.png", 
+        category: "Ropa",
+        features: [
+            "Collar con colgante LOVE", 
+            "Ideal para regalo", 
+            "Elegante y encantador",
+        ]
+    },
+    { 
+        id: 60, 
+        name: "Pulsera Corazones", 
+        price: 18.00, 
+        img: "img/pulseraC.png", 
+        category: "Ropa",
+        features: [
+            "Pulsera de corazones", 
+            "Ideal para regalo", 
+            "Elegante y encantador",
+        ]
+    },
+    { 
+        id: 61, 
+        name: "Pulsera con pedreria", 
+        price: 26.00, 
+        img: "img/pulseraP.png", 
+        category: "Ropa",
+        features: [
+            "Pulsera de dopamina brillante", 
+            "Ideal para regalo", 
+            "Elegante y encantador",
         ]
     },
 
