@@ -13,7 +13,7 @@ const products = [
         name: "Smartwatch", 
         price: 65.00, 
         img: "img/Rmujer.png", // Asegúrate de tener esta imagen
-        category: "electronica",
+        category: "bisuteria",
         features: ["Pantalla tactil", "Carga USB", "ideal para regalo"]
     },
     { 
@@ -21,7 +21,7 @@ const products = [
         name: "Reloj Cuarzo", 
         price: 43.00, 
         img: "img/reloj5.png", 
-        category: "electronica",
+        category: "bisuteria",
         features: ["Reloj de cuarzo", "correa ajustable", "= ideal para regalo"]
     },
     { 
@@ -29,7 +29,7 @@ const products = [
         name: "Reloj Inteligente", 
         price: 43.00, 
         img: "img/RelojI.png", 
-        category: "electronica",
+        category: "bisuteria",
         features: [
             "Reloj Inteligente", 
             "Modos deportivos integrados", 
@@ -41,7 +41,7 @@ const products = [
         name: "Reloj mariposa", 
         price: 43.00, 
         img: "img/reloj6.png", 
-        category: "electronica",
+        category: "bisuteria",
         features: [
             "Reloj de cuarzo", 
             "+ pulsera, collar, aretes", 
@@ -53,7 +53,7 @@ const products = [
         name: "Capibara", 
         price: 18.00, 
         img: "img/capibara2.png", 
-        category: "hogar",
+        category: "ropa",
         features: [
             "Capibara peluche", 
             "con capucha", 
@@ -149,7 +149,7 @@ const products = [
         name: "Sombras", 
         price: 29.90, 
         img: "img/sombras.png", 
-        category: "hogar",
+        category: "ropa",
         features: [
             "Producto garantizado", 
             "hecho en Francia", 
@@ -160,7 +160,7 @@ const products = [
         name: "Crema hidratanta", 
         price: 34.90, 
         img: "img/crema.jpg", 
-        category: "hogar",
+        category: "ropa",
         features: [
             "Extracto de monoi, 250ml", 
             "hecho en Francia", 
@@ -171,7 +171,7 @@ const products = [
         name: "Mascarilla zanahoria", 
         price: 32.90, 
         img: "img/mascarilla.jpg", 
-        category: "hogar",
+        category: "ropa",
         features: [
             "Extracto de zanahoria", 
             "hecho en Francia", 
@@ -182,7 +182,7 @@ const products = [
         name: "Parches", 
         price: 24.90, 
         img: "img/parches.png", 
-        category: "hogar",
+        category: "ropa",
         features: [
             "Parches para el acne", 
             "hecho en Francia", 
@@ -193,7 +193,7 @@ const products = [
         name: "Leche corporal", 
         price: 49.90, 
         img: "img/lechec.jpg", 
-        category: "hogar",
+        category: "ropa",
         features: [
             "Especial para pieles secas", 
             "hecho en Francia", 
@@ -201,57 +201,58 @@ const products = [
     },
     {
         id: 19, 
-        name: "Derpy Kpop", 
-        price: 45.90, 
-        img: "img/Derpy.jpg", 
-        category: "hogar",
+        name: "Reloj Sanrio", 
+        price: 35.00, 
+        img: "img/relojK1.jpg", 
+        category: "bisuteria",
         features: [
-            "Felino azul", 
-            "Funko Kpop", 
+            "Reloj HelloKitty", 
+            "Reloj de cuarzo para mujer",
+            "Regalo perfecto",
         ]
     },
     {
         id: 20, 
-        name: "Jinu Kpop", 
-        price: 45.90, 
-        img: "img/Jinu.jpg", 
-        category: "hogar",
+        name: "Boxer patitos", 
+        price: 25.00, 
+        img: "img/boxerP.jpg", 
+        category: "ropa",
         features: [
-            "Kpop Demon Hunters", 
-            "Funko Kpop", 
+            "boxer para mujer", 
+            "comodo y transpirable", 
         ]
     },
     {
         id: 21, 
-        name: "Mira Guerrera", 
-        price: 45.90, 
-        img: "img/Mira.jpg", 
-        category: "hogar",
+        name: "Boxer Frutas", 
+        price: 25.00, 
+        img: "img/boxerF.jpg", 
+        category: "ropa",
         features: [
-            "Kpop Demon Hunters", 
-            "Funko Kpop", 
+            "Boxer para mujer", 
+            "comodo y transpirable", 
         ]
     },
     {
         id: 22, 
-        name: "Rumi Guerrera", 
-        price: 45.90, 
-        img: "img/Rumi.jpg", 
-        category: "hogar",
+        name: "Boxer estampado", 
+        price: 25.00, 
+        img: "img/boxer1.jpg", 
+        category: "ropa",
         features: [
-            "Kpop Demon Hunters", 
-            "Funko Kpop", 
+            "Boxer para mujer", 
+            "comodo y transpirable", 
         ]
     },
     {
         id: 23, 
-        name: "Zoey Guerrera", 
-        price: 45.90, 
-        img: "img/Zoey.jpg", 
-        category: "hogar",
+        name: "Aretes Ositos", 
+        price: 18.50, 
+        img: "img/aretesO.jpg", 
+        category: "bisuteria",
         features: [
-            "Kpop Demon Hunters", 
-            "Funko Kpop", 
+            "Aretes con zincornias cubicas", 
+            "Regalo perfecto", 
         ]
     },
     {
@@ -259,7 +260,7 @@ const products = [
         name: "StitBoy Kpop", 
         price: 45.90, 
         img: "img/StitBoy.jpg", 
-        category: "hogar",
+        category: "ropa",
         features: [
             "Kpop Demon Hunters", 
             "Funko Kpop", 
@@ -281,7 +282,7 @@ const products = [
         name: "Gafas para mujer", 
         price: 32.00, 
         img: "img/Gafas.png", 
-        category: "hogar",
+        category: "bisuteria",
         features: [
             "Forma cuadrada sin montura", 
             "Adorno con pedreria", 
@@ -359,7 +360,7 @@ const products = [
         name: " 5 Rosas artificiales", 
         price: 10.00, 
         img: "img/rosa.jpg", 
-        category: "hogar",
+        category: "bisuteria",
         features: [
             "Ramo de rosas rojas con tallo", 
             "Para decoracion de interiores", 
@@ -367,24 +368,24 @@ const products = [
     },
     {
         id: 34, 
-        name: "Rubor Francia", 
+        name: "Rubor para mujer", 
         price: 30.00, 
         img: "img/Rubor.jpg", 
-        category: "hogar",
+        category: "ropa",
         features: [
             "Producto garantizado", 
-            "hecho en Francia", 
+            "regalo perfecto", 
         ]
     },
     {
         id: 35, 
-        name: "Brillo Labial Francia", 
+        name: "Brillo Labial", 
         price: 25.00, 
         img: "img/Labial.jpg", 
-        category: "hogar",
+        category: "ropa",
         features: [
             "Producto garantizado", 
-            "hecho en Francia", 
+            "regalo perfecto", 
         ]
     },
     { 
@@ -392,7 +393,7 @@ const products = [
         name: "Reloj Cuarzo", 
         price: 43.00, 
         img: "img/reloj7.png", 
-        category: "electronica",
+        category: "bisuteria",
         features: ["Reloj de cuarzo", "correa ajustable", "= ideal para regalo"]
     },
     {
@@ -422,7 +423,7 @@ const products = [
         name: "Pulsera SM", 
         price: 34.90, 
         img: "img/pulsera1.png", 
-        category: "Hogar",
+        category: "bisuteria",
         features: [
             "Diseño de anime", 
             "para disfraces de colplay", 
@@ -433,7 +434,7 @@ const products = [
         name: "Smartwatch negro", 
         price: 49.50, 
         img: "img/reloj2.png", 
-        category: "electronica",
+        category: "bisuteria",
         features: [
             "Reloj Inteligente", 
             "Llamadas inalambricas", 
@@ -445,7 +446,7 @@ const products = [
         name: "Smartwatch hombre", 
         price: 58.00, 
         img: "img/reloj3.png", 
-        category: "electronica",
+        category: "bisuteria",
         features: [
             "Reloj Inteligente", 
             "Control remoto de camara", 
@@ -457,7 +458,7 @@ const products = [
         name: "Reloj de cuarzo de lujo", 
         price: 52.00, 
         img: "img/reloj4.png", 
-        category: "electronica",
+        category: "bisuteria",
         features: [
             "Reloj acero inoxidable", 
             "Reloj con fecha", 
@@ -469,7 +470,7 @@ const products = [
         name: "Boxer vaso de cerveza", 
         price: 19.90, 
         img: "img/boxer1.png", 
-        category: "Ropa",
+        category: "ropa",
         features: [
             "Boxer estampado", 
             "Talla M", 
@@ -481,7 +482,7 @@ const products = [
         name: "Boxer cerdito", 
         price: 26.50, 
         img: "img/boxer2.png", 
-        category: "Ropa",
+        category: "ropa",
         features: [
             "Boxer estampado", 
             "Talla M", 
@@ -493,7 +494,7 @@ const products = [
         name: "Boxer patitos", 
         price: 26.50, 
         img: "img/boxer3.png", 
-        category: "Ropa",
+        category: "ropa",
         features: [
             "Boxer estampado", 
             "Comoda y transpirable", 
@@ -505,7 +506,7 @@ const products = [
         name: "Medias con mensaje", 
         price: 22.50, 
         img: "img/mediasA.png", 
-        category: "Ropa",
+        category: "ropa",
         features: [
             "Calcetines estampados", 
             "Calcetines de vestir", 
@@ -517,7 +518,7 @@ const products = [
         name: "Medias nutella", 
         price: 24.50, 
         img: "img/medias2.png", 
-        category: "Ropa",
+        category: "ropa",
         features: [
             "Calcetines estampados", 
             "Calcetines de vestir", 
@@ -529,7 +530,7 @@ const products = [
         name: "Medias pilsen", 
         price: 26.50, 
         img: "img/medias3.png", 
-        category: "Ropa",
+        category: "ropa",
         features: [
             "Calcetines estampados", 
             "Calcetines de vestir", 
@@ -541,7 +542,7 @@ const products = [
         name: "Medias cortas", 
         price: 8.00, 
         img: "img/medias4.png", 
-        category: "Ropa",
+        category: "ropa",
         features: [
             "Calcetines estampados", 
             "Calcetines de vestir", 
@@ -553,7 +554,7 @@ const products = [
         name: "Aretes Fresa", 
         price: 19.50, 
         img: "img/aretesF.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Aretes de fresa premium", 
             "Combinables", 
@@ -565,7 +566,7 @@ const products = [
         name: "Aretes Rosas", 
         price: 17.00, 
         img: "img/aretesR.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Aretes de rosas blancas", 
             "Combinables", 
@@ -577,7 +578,7 @@ const products = [
         name: "Aretes Diamantes", 
         price: 19.50, 
         img: "img/aretesD.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Aretes en forma de gotas", 
             "Usos fiestas y diario", 
@@ -589,7 +590,7 @@ const products = [
         name: "Aretes Flor de Cerezo", 
         price: 18.50, 
         img: "img/aretesFC.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Aretes flor de cerezo", 
             "Ideal para regalo", 
@@ -601,7 +602,7 @@ const products = [
         name: "Aretes Margaritas", 
         price: 17.00, 
         img: "img/aretesM.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Aretes margaritas blancas", 
             "Ideal para regalo", 
@@ -613,7 +614,7 @@ const products = [
         name: "Aretes Cerezas", 
         price: 17.90, 
         img: "img/aretesC.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Aretes forma de cerezas", 
             "Ideal para regalo", 
@@ -625,7 +626,7 @@ const products = [
         name: "Aretes Corazones", 
         price: 19.50, 
         img: "img/aretesCo.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Aretes forma de corazones", 
             "Ideal para regalo", 
@@ -637,7 +638,7 @@ const products = [
         name: "Juego Collar y Aretes", 
         price: 26.00, 
         img: "img/collarV.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Collar y aretes dazzling", 
             "Ideal para regalo", 
@@ -649,7 +650,7 @@ const products = [
         name: "Pulsera Ojo Turco", 
         price: 18.00, 
         img: "img/pulseraT.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Pulsera turca ajustable", 
             "Ideal para regalo", 
@@ -661,7 +662,7 @@ const products = [
         name: "Collar Love", 
         price: 23.00, 
         img: "img/collarL.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Collar con colgante LOVE", 
             "Ideal para regalo", 
@@ -673,7 +674,7 @@ const products = [
         name: "Pulsera Corazones", 
         price: 18.00, 
         img: "img/pulseraC.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Pulsera de corazones", 
             "Ideal para regalo", 
@@ -685,7 +686,7 @@ const products = [
         name: "Pulsera con pedreria", 
         price: 26.00, 
         img: "img/pulseraP.png", 
-        category: "Ropa",
+        category: "bisuteria",
         features: [
             "Pulsera de dopamina brillante", 
             "Ideal para regalo", 
